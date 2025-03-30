@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - WarTools & Co.</title>
+    <link rel="stylesheet" href="/assets/css/styleBlog.css">
+</head>
+<body>
+    <!-- Cabecera de la página -->
+    <header>  
+        <img src="/assets/images/13sgv2.svg" alt="WarTools & Co." class="logo">
+        <div class="header-actions"></div>
+    </header>
+    
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="/src/pages/tienda.html">Tienda</a></li>
+            <li><a href="/src/pages/servicios.html">Servicios</a></li>
+            <li><a href="/src/pages/contacto.html">Contacto</a></li>
+            <li><a href="/src/pages/blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="blog-container">
+        <section class="blog-header">
+            <h1>Blog de WarTools & Co.</h1>
+            <p class="subtitle">Consejos, tutoriales y las últimas tendencias en bricolaje y construcción</p>
+        </section>
+        
+        <div class="blog-content">
+            <!-- Barra lateral de categorías -->
+            <aside class="blog-sidebar">
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar artículos...">
+                    <button>Buscar</button>
+                </div>
+                
+                <h3>Categorías</h3>
+                <ul class="categories">
+                    <li><a href="#">Herramientas eléctricas</a></li>
+                    <li><a href="#">Carpintería</a></li>
+                    <li><a href="#">Fontanería</a></li>
+                    <li><a href="#">Electricidad</a></li>
+                    <li><a href="#">Pintura</a></li>
+                    <li><a href="#">Proyectos DIY</a></li>
+                    <li><a href="#">Novedades</a></li>
+                </ul>
+                
+                <h3>Artículos populares</h3>
+                <div class="popular-posts">
+                    <div class="popular-post">
+                        <img src="/assets/images/blog-popular1.webp" alt="Cómo elegir taladro">
+                        <a href="#">Cómo elegir el taladro perfecto para tus proyectos</a>
+                    </div>
+                    <div class="popular-post">
+                        <img src="/assets/images/blog-popular2.webp" alt="Pintura exterior">
+                        <a href="#">Guía completa para pintar fachadas exteriores</a>
+                    </div>
+                </div>
+            </aside>
+            
+            <!-- Artículos del blog -->
+            <section class="blog-articles">
+                <article class="blog-card featured">
+                    <img src="/assets/images/blog-featured.webp" alt="Proyecto destacado">
+                    <div class="blog-card-content">
+                        <span class="category">Proyectos DIY</span>
+                        <h2>Cómo construir un mueble de jardín paso a paso</h2>
+                        <p class="meta">Publicado el 15 de marzo, 2025 por <span class="author">Juan Pérez</span></p>
+                        <p class="excerpt">Aprende a crear un hermoso banco de jardín con materiales básicos y nuestras herramientas recomendadas. Ideal para principiantes...</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <img src="/assets/images/blog2.webp" alt="Mantenimiento herramientas">
+                    <div class="blog-card-content">
+                        <span class="category">Mantenimiento</span>
+                        <h2>Mantenimiento básico para herramientas eléctricas</h2>
+                        <p class="meta">Publicado el 10 de marzo, 2025 por <span class="author">María González</span></p>
+                        <p class="excerpt">Extiende la vida útil de tus herramientas con estos sencillos consejos de mantenimiento que puedes hacer en casa...</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <img src="/assets/images/blog3.webp" alt="Seguridad en obra">
+                    <div class="blog-card-content">
+                        <span class="category">Seguridad</span>
+                        <h2>Equipo de protección esencial para trabajos de construcción</h2>
+                        <p class="meta">Publicado el 5 de marzo, 2025 por <span class="author">Carlos Martínez</span></p>
+                        <p class="excerpt">No subestimes la importancia de la seguridad. Conoce los elementos de protección personal que todo profesional debe tener...</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <img src="/assets/images/blog4.webp" alt="Nuevas herramientas">
+                    <div class="blog-card-content">
+                        <span class="category">Novedades</span>
+                        <h2>Las 5 herramientas innovadoras que llegarán este 2025</h2>
+                        <p class="meta">Publicado el 28 de febrero, 2025 por <span class="author">Ana López</span></p>
+                        <p class="excerpt">Descubre las nuevas tecnologías que revolucionarán el mundo del bricolaje y la construcción este año...</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </div>
+                </article>
+                
+                <div class="pagination">
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">Siguiente →</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <div class="footer">
+        <p>&copy; 2025 WarTools & Co.</p>
+    </div>
+    
+    <script src="/assets/js/blog.js"></script>
+</body>
+</html>
